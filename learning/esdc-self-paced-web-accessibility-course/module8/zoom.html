@@ -118,7 +118,8 @@
 				<p>
 					Note that hot all low vision users benefit from magnification. A user with tunnel vision may be able to read paragraph text just fine while benefiting from other design considerations, such as placing form controls close to their labels.
 				</p>
-				<p>Good Example: Reflow content</p>
+				<h2 class="text-success" id="eg">
+				<span class="glyphicon glyphicon-ok-circle"></span>Good Example: Reflow content</h2>
 				<p>In this example, when the page is narrowed to 320 pixels tha horizontal navigatin bar collapses to a vertical stack in a single column. Narrow the browser window to trigger the single column layout.</p>
 				<p>Desktop view</p>
 				<p>
@@ -129,8 +130,8 @@
 					<img src="images/mobile-view.png" class="mobile-view" alt="Mobile view" style="width:200px">
 				</p>
 				<p>CSS:</p>
-				<p class="wb-inv">Code starts</p>
-				
+				<p class="wb-inv">Code begins</p>
+				<div style="clear: left; padding-top: 1em"></div>
 				<pre><code class="language-css">
 					h1 {
 					font-size: 1.5rem;
@@ -196,25 +197,29 @@
 							}
 							/* END MEDIA QUERY 2 */
 							HTML:
-							<head>
+							<p class="wb-inv">Code begins</p>
+							<div style="clear: left; padding-top: 1em">
+							<pre>
+							<code class="language-html">
+							&lt;head&gt;
 							<!-- Loads the fontawesome icons -->
-							<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
-							</head>
+							&lt;script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"&gt;&lt;/script&gt;
+							&lt;/head&gt;
 							[…]
-							<nav>
-								<ul id="navbar">						
-									<li>< href="#" aria-current="page">	<i class="fa fa-fw fa-home"></i> Home</a></li>
-									<li><a href="#"><i class="fa fa-fw fa-search"></i> Search</a></li>
-									<li><a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a></li>
-									<li><a href="#"><i class="fa fa-fw fa-user"></i> Login</a></li>
-								</ul>
-							</nav>
-							<main>
-								<h1>Lorem ipsum dolor sit amet</h1>
-									<p>
+							&lt;nav&gt;
+							&lt;ul id="navbar"&gt;					
+							&lt;li&gt;&lt; href="#" aria-current="page"&gt;	&lt;i class="fa fa-fw fa-home"&gt;&lt;/i&gt; Home&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-fw fa-search"&gt;&lt;/i&gt; Search&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-fw fa-envelope"&gt;&lt;/i&gt; Contact&lt;/a&gt;&lt;/li&gt;
+								&lt;a href="#"&gt;&lt;i class="fa fa-fw fa-user"&gt;&lt;/i&gt; Login&lt;/a&gt;&lt;/li&gt;
+								&lt;/ul&gt;
+								&lt;/nav&gt;
+								&lt;main&gt;
+								&lt;h1&gt;Lorem ipsum dolor sit amet&lt;/h1&gt;
+								&lt;p&gt;
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-									</p>
-							</main>
+										&lt;/p&gt;
+										&lt;/main&gt;
 				}
 				}
 				}</code>
